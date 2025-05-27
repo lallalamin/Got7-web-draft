@@ -1,8 +1,14 @@
 // Footer.js
 import { Box, Flex, Text, Link, Stack, Image, Button, VStack, HStack } from '@chakra-ui/react';
 import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { useState } from 'react';
 
 const Navbar = () => {
+    const [activePage, setActivePage] = useState('Home');
+
+    const handleNavClick = (page) => {
+        setActivePage(page);
+    };
   return (
     <Box
       bg="#0aab45"
@@ -21,10 +27,55 @@ const Navbar = () => {
             />
           </Flex>
           <Flex direction={"row"} justifyContent={"space-between"} gap={25} w={"200px"}>
-            <Link fontSize={"sm"} color={"#222222"} fontWeight={"bold"} href="#">Home</Link>
-            <Link fontSize={"sm"} color={"#222222"} fontWeight={"bold"} href="#">About</Link>
-            <Link fontSize={"sm"} color={"#222222"} fontWeight={"bold"} href="#">Contact</Link>
-            <Link fontSize={"sm"} color={"#222222"} fontWeight={"bold"} href="#">Events</Link>
+            <Link
+            fontSize="sm"
+            fontWeight="bold"
+            onClick={() => handleNavClick("Home")}
+            bg={activePage === "Home" ? "white" : "transparent"}
+            color={"#222222"}
+            px={3}
+            py={1}
+            borderRadius="full"
+            >
+            Home
+            </Link>
+
+            <Link
+            fontSize="sm"
+            fontWeight="bold"
+            onClick={() => handleNavClick("About")}
+            bg={activePage === "About" ? "white" : "transparent"}
+            color={"#222222"}
+            px={3}
+            py={1}
+            borderRadius="full"
+            >
+            About
+            </Link>
+            <Link
+            fontSize="sm"
+            fontWeight="bold"
+            onClick={() => handleNavClick("News")}
+            bg={activePage === "News" ? "white" : "transparent"}
+            color={"#222222"}
+            px={3}
+            py={1}
+            borderRadius="full"
+            >
+            News
+            </Link>
+            <Link
+            fontSize="sm"
+            fontWeight="bold"
+            onClick={() => handleNavClick("Gallery")}
+            bg={activePage === "Gallery" ? "white" : "transparent"}
+            color={"#222222"}
+            px={3}
+            py={1}
+            borderRadius="full"
+            >
+            Gallery
+            </Link>
           </Flex>
           <Flex direction={"row"}>
                 <Stack direction={"row"} spacing={4}>
@@ -65,7 +116,7 @@ const Navbar = () => {
                 <Button 
                 size={"md"} 
                 color="white"
-                _hover={{ bg: "#3c8350" }}
+                _hover={{ bg: "rgb(57, 71, 62)" }}
                 borderRadius="lg"
                 px={6}
                 ml={4}
