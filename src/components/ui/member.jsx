@@ -3,13 +3,13 @@ import { Text, Timeline, Box, Flex, Image, Tag, SimpleGrid } from "@chakra-ui/re
 import { LuCheck, LuPackage, LuShip } from "react-icons/lu"
 
 const memberlist = [
-    { name: "JayB", role: ["Leader", "Main Vocalist"], image: "src/assets/JB.jpg", description: "Chic & Sexy" },
-    { name: "Mark", role: ["Lead Rapper"], image: "src/assets/MK.jpg", description: "Markipooh" },
-    { name: "Jackson", role: ["Main Rapper"], image: "src/assets/JK.jpg", description: "Wang Puppy" },
-    { name: "Jinyoung", role: ["Sub Vocalist"], image: "src/assets/JY.jpg", description: "Savage Eomma" },
-    { name: "Youngjae", role: ["Main Vocalist"], image: "src/assets/YJ.jpg", description: "Sunshine Otter" },
-    { name: "BamBam", role: ["Sub Rapper"], image: "src/assets/BB.jpg", description: "DoubleB" },
-    { name: "Yugyeom", role: ["Main Dancer"], image: "src/assets/YG.jpg", description: "Pure Crystal" }
+    { name: "JayB", role: ["Leader", "Main Vocalist"], image: "/JB.jpg", description: "Chic & Sexy" },
+    { name: "Mark", role: ["Lead Rapper"], image: "/MK.jpg", description: "Markipooh" },
+    { name: "Jackson", role: ["Main Rapper"], image: "/JK.jpg", description: "Wang Puppy" },
+    { name: "Jinyoung", role: ["Sub Vocalist"], image: "/JY.jpg", description: "Savage Eomma" },
+    { name: "Youngjae", role: ["Main Vocalist"], image: "/YJ.jpg", description: "Sunshine Otter" },
+    { name: "BamBam", role: ["Sub Rapper"], image: "/BB.jpg", description: "DoubleB" },
+    { name: "Yugyeom", role: ["Main Dancer"], image: "/YG.jpg", description: "Pure Crystal" }
 ]
 
 const member = () => {

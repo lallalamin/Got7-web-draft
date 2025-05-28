@@ -6,6 +6,7 @@ import Navbar from './components/ui/navbar.jsx'
 import Footer from './components/ui/footer.jsx'
 import Banner from './components/ui/banner.jsx'
 import Member from './components/ui/member.jsx'
+import About from './components/ui/about.jsx'
 import Upcomingevent from './components/ui/upcomingevent.jsx'
 import { Text, Timeline, Box, Flex, Image } from "@chakra-ui/react"
 import { LuCheck, LuPackage, LuShip } from "react-icons/lu"
@@ -18,6 +19,7 @@ function App() {
       <Navbar/>
       <Banner/>
       <Member/>
+      <About/>
       <Upcomingevent/>
       <Footer/>
     </>

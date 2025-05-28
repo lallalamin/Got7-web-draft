@@ -69,7 +69,7 @@ const Footer = () => {
         <Flex direction={"row"}>
           <Flex direction={"column"} mr={20} >
             <Image 
-              src="src/assets/GOT7-Logo.png" 
+              src="/GOT7-Logo.png" 
               mb={8} 
               w={"100px"} 
               alt="GOT7 Logo" 
@@ -138,7 +138,7 @@ const Footer = () => {
               Contact us
             </Button>
             <Image 
-              src="src/assets/coffee.png" 
+              src="/coffee.png" 
               w={"115px"} 
               alt="buy me a coffee"
             />

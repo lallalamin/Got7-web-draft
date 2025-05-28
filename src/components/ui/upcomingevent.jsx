@@ -13,7 +13,7 @@ const upcomingevent = () => {
                 <Text fontSize="5xl" fontWeight="bold">11</Text>
                 <Text>June</Text>
               </Flex>
-              <Image src="src/assets/jayb.jpg" alt="Jay B" width="130px" height="200px" />
+              <Image src="/jayb.jpg" alt="Jay B" width="130px" height="200px" />
             </Flex>
             <Flex direction="column">
               <Text fontSize="lg" fontWeight="bold">Jay B TAPE: RE LOAD US TOUR Chicago</Text>
@@ -29,7 +29,7 @@ const upcomingevent = () => {
                 <Text fontSize="5xl" fontWeight="bold">13</Text>
                 <Text>June</Text>
               </Flex>
-              <Image src="src/assets/jayb.jpg" alt="Jay B" width="130px" height="200px" />
+              <Image src="/jayb.jpg" alt="Jay B" width="130px" height="200px" />
             </Flex>
             <Flex direction="column">
               <Text fontSize="lg" fontWeight="bold">Jay B TAPE: RE LOAD US TOUR Washington</Text>
@@ -45,7 +45,7 @@ const upcomingevent = () => {
                 <Text fontSize="5xl" fontWeight="bold">17</Text>
                 <Text>June</Text>
               </Flex>
-              <Image src="src/assets/yugyeom.jpg" alt="Yugyeom" width="130px" height="200px" />
+              <Image src="/yugyeom.jpg" alt="Yugyeom" width="130px" height="200px" />
             </Flex>
             <Flex direction="column">
               <Text fontSize="lg" fontWeight="bold">Interlunar Yugyeom Album Release</Text>
@@ -61,7 +61,7 @@ const upcomingevent = () => {
                 <Text fontSize="5xl" fontWeight="bold">18</Text>
                 <Text>July</Text>
               </Flex>
-              <Image src="src/assets/jackson.jpg" alt="Jackson" width="130px" height="200px" />
+              <Image src="/jackson.jpg" alt="Jackson" width="130px" height="200px" />
             </Flex>
             <Flex direction="column">
               <Text fontSize="lg" fontWeight="bold">MagicMan2 Jackson Album Release</Text>

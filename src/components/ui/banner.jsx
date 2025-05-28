@@ -6,7 +6,7 @@ const Banner = () => {
     <Box position="relative" w="100%" h="600px" overflow="hidden">
       {/* Background Image with Overlay */}
       <Image
-        src="src/assets/banner.jpg"
+        src="/banner.jpg"
         alt="GOT7 Banner"
         width="100%"
         height="100%"
@@ -72,7 +72,7 @@ const Banner = () => {
         left="30px"
         zIndex={1}
         >
-            <Image src="src/assets/ahgase.png" alt="Ahgase" width="400px" height="280px" />
+            <Image src="/ahgase.png" alt="Ahgase" width="400px" height="280px" />
         </Box>
 
         {/* Shape D (bottom-right) */}

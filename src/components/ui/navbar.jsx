@@ -20,7 +20,7 @@ const Navbar = () => {
         <Flex direction={"row"} justifyContent={"space-between"} alignItems={"center"} w="100%">
           <Flex direction={"column"} >
             <Image 
-              src="src/assets/GOT7-Logo.png" 
+              src="/GOT7-Logo.png" 
               w={"100px"} 
               alt="GOT7 Logo" 
               height="60px"
