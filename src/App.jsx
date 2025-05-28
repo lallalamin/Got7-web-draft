@@ -19,7 +19,7 @@ function App() {
       <Navbar/>
       <Banner/>
       <Member/>
-      <About/>
+      {/* <About/> */}
       <Upcomingevent/>
       <Footer/>
     </>
