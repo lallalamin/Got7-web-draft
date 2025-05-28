@@ -3,7 +3,7 @@ import { Container, Flex, Box, Text, Image } from "@chakra-ui/react"
 
 const About = () => {
   return (
-    <Flex direction="column" mr={120} ml={120} mt={4} mb={4} gap={4}>
+    <Flex direction="column" mr={120} ml={120} mt={10} mb={8} gap={4}>
       <Flex
         direction={{ base: "column", md: "row" }}
         align="center"
@@ -11,7 +11,7 @@ const About = () => {
         gap={8}
       >
         {/* left side: heading + text */}
-        <Box flex="1" maxW={{ md: "45%" }}>
+        <Box flex="1" maxW={{ md: "50%" }}>
           <Text fontSize="4xl" fontWeight="bold" mb={4}>
             ABOUT GOT7
           </Text>
@@ -28,7 +28,7 @@ const About = () => {
         <Image
             src="/group2wShape.png"
             alt="GOT7 Group"
-            w="30%"
+            w="35%"
             objectFit="cover"
           />
         
