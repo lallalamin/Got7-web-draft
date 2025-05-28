@@ -146,7 +146,7 @@ const Footer = () => {
           
           <Flex direction={"column"} alignItems={"flex-end"}>
             <Stack direction={"row"} spacing={4} mb={3}>
-              <Link href="https://www.instagram.com/got7/" isExternal>
+              <Link href="https://www.instagram.com/got7_isourname/" isExternal>
                 <Box 
                   p={2} 
                   borderRadius="md" 
@@ -156,7 +156,7 @@ const Footer = () => {
                   <FaInstagram size={20} color="#222222" />
                 </Box>
               </Link>
-              <Link href="https://twitter.com/GOT7Official" isExternal>
+              <Link href="https://x.com/GOT7Official" isExternal>
                 <Box 
                   p={2} 
                   borderRadius="md" 
@@ -166,7 +166,7 @@ const Footer = () => {
                   <FaTwitter size={20} color="#222222" />
                 </Box>
               </Link>
-              <Link href="https://www.youtube.com/channel/UCV1fFrt0c2G8z3d6b9a5QwA" isExternal>
+              <Link href="https://www.youtube.com/@GOT7_isourname" isExternal>
                 <Box 
                   p={2} 
                   borderRadius="md" 
