@@ -18,8 +18,10 @@ function App() {
     <>
       <Navbar/>
       <Banner/>
+      
+      <About/>
       <Member/>
-      {/* <About/> */}
+      
       <Upcomingevent/>
       <Footer/>
     </>
